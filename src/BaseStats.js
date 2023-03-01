@@ -1,8 +1,8 @@
-function BaseStats(props, clicker) {
+function BaseStats(props) {
   return (
-    <div class="base-stats">
+    <div className="base-stats">
       <h1>BaseStats</h1>
-      <button className="sp-stats" onClick={clicker}>
+      <button className="sp-stats" onClick={props.clicker}>
         Check Special Stats
       </button>
       <table>

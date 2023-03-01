@@ -8,7 +8,7 @@ const baseStats = {
   defense: 49,
   spAttack: 65,
   spDef: 65,
-  speed: 45,
+  speed: 45
 };
 
 function handleClick() {
